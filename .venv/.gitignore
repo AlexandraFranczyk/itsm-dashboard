@@ -1,0 +1,9 @@
+share/
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+data/*.html
+

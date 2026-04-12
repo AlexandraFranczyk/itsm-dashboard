@@ -204,18 +204,6 @@ def main():
     min_date = df["Created At"].min().date()
     max_date = df["Created At"].max().date()
 
-    date_range = st.sidebar.date_input(
-        "Zakres dat (Created At)",
-        value=(min_date, max_date),
-        min_value=min_date,
-        max_value=max_date
-    )
-
-    if isinstance(date_range, tuple) and len(date_range) == 2:
-        start_date, end_date = date_range
-    else:
-        start_date, end_date = min_date, max_date
-
     sla_breached_only = st.sidebar.checkbox("Tylko tickety z przekroczonym SLA", value=False)
 
     max_resolution_hours = float(df["Resolution_Hours"].max())
@@ -257,10 +245,6 @@ def main():
     if root_cause_filter:
         df_filtered = df_filtered[df_filtered["Root Cause"].isin(root_cause_filter)]
 
-    df_filtered = df_filtered[
-        (df_filtered["Created At"].dt.date >= start_date) &
-        (df_filtered["Created At"].dt.date <= end_date)
-    ]
 
     df_filtered = df_filtered[
         df_filtered["Resolution_Hours"] <= resolution_hours_max_filter
