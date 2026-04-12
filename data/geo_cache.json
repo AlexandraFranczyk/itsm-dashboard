@@ -1,0 +1,766 @@
+{
+  "Mikołów|mikołowski|śląskie": {
+    "lat": 50.1960028,
+    "lon": 18.8539322
+  },
+  "Katowice|Katowice|śląskie": {
+    "lat": 50.2576071,
+    "lon": 19.0171456
+  },
+  "Poczesna|częstochowski|śląskie": {
+    "lat": 50.7156129,
+    "lon": 19.1405326
+  },
+  "Lipie|kłobucki|śląskie": {
+    "lat": 51.01265,
+    "lon": 18.79722
+  },
+  "Pajęczno|pajęczański|łódzkie": {
+    "lat": 51.1468824,
+    "lon": 18.9956984
+  },
+  "Rząśnia|pajęczański|łódzkie": {
+    "lat": 51.2217666,
+    "lon": 19.0423184
+  },
+  "Działoszyn|pajęczański|łódzkie": {
+    "lat": 51.1167859,
+    "lon": 18.8651624
+  },
+  "Wieluń|wieluński|łódzkie": {
+    "lat": 51.2204544,
+    "lon": 18.5700965
+  },
+  "Pątnów|wieluński|łódzkie": {
+    "lat": 51.1464812,
+    "lon": 18.6248122
+  },
+  "Świętochłowice|Świętochłowice|śląskie": {
+    "lat": 50.2979616,
+    "lon": 18.9061863
+  },
+  "Chorzów|Chorzów|śląskie": {
+    "lat": 50.2884726,
+    "lon": 18.9703798
+  },
+  "Bytom|Bytom|śląskie": {
+    "lat": 50.3652854,
+    "lon": 18.8722567
+  },
+  "Halinów|miński|mazowieckie": {
+    "lat": 52.2258575,
+    "lon": 21.3529522
+  },
+  "Kędzierzyn-Koźle|kędzierzyńsko-kozielski|opolskie": {
+    "lat": 50.345463,
+    "lon": 18.2447945
+  },
+  "Wręczyca Wielka|kłobucki|śląskie": {
+    "lat": 50.8442673,
+    "lon": 18.916773
+  },
+  "Warszawa|Warszawa|mazowieckie": {
+    "lat": 52.2138636,
+    "lon": 21.0037346
+  },
+  "Pszczyna|pszczyński|śląskie": {
+    "lat": 49.9778089,
+    "lon": 18.9423721
+  },
+  "Rawa Mazowiecka|rawski|łódzkie": {
+    "lat": 51.7582859,
+    "lon": 20.250998
+  },
+  "Sosnowiec|Sosnowiec|śląskie": {
+    "lat": 50.2784804,
+    "lon": 19.126064
+  },
+  "Mysłowice|Mysłowice|śląskie": {
+    "lat": 50.2096211,
+    "lon": 19.132166
+  },
+  "Piekary Śląskie|Piekary Śląskie|śląskie": {
+    "lat": 50.3757791,
+    "lon": 18.9379389
+  },
+  "Zabrze|Zabrze|śląskie": {
+    "lat": 50.3052986,
+    "lon": 18.7871281
+  },
+  "Jaworzno|Jaworzno|śląskie": {
+    "lat": 50.213505,
+    "lon": 19.2397327
+  },
+  "Ruda Śląska|Ruda Śląska|śląskie": {
+    "lat": 50.2698658,
+    "lon": 18.8642588
+  },
+  "Siemianowice Śląskie|Siemianowice Śląskie|śląskie": {
+    "lat": 50.3121356,
+    "lon": 19.0177437
+  },
+  "Czeladź|będziński|śląskie": {
+    "lat": 50.3184581,
+    "lon": 19.0736572
+  },
+  "Dąbrowa Górnicza|Dąbrowa Górnicza|śląskie": {
+    "lat": 50.330374,
+    "lon": 19.1848234
+  },
+  "Mierzęcice|będziński|śląskie": {
+    "lat": 50.4441,
+    "lon": 19.12405
+  },
+  "Poręba|zawierciański|śląskie": {
+    "lat": 50.4875787,
+    "lon": 19.337879
+  },
+  "Koziegłowy|myszkowski|śląskie": {
+    "lat": 50.5978707,
+    "lon": 19.1615203
+  },
+  "Częstochowa|Częstochowa|śląskie": {
+    "lat": 50.8084279,
+    "lon": 19.1209688
+  },
+  "Żórawina|wrocławski|dolnośląskie": {
+    "lat": 50.9800904,
+    "lon": 17.0409458
+  },
+  "Wojkowice|będziński|śląskie": {
+    "lat": 50.3659257,
+    "lon": 19.0357631
+  },
+  "Ustka|słupski|pomorskie": {
+    "lat": 54.5811254,
+    "lon": 16.8612962
+  },
+  "Zawiercie|zawierciański|śląskie": {
+    "lat": 50.5055879,
+    "lon": 19.4717069
+  },
+  "Łazy|zawierciański|śląskie": {
+    "lat": 50.4276105,
+    "lon": 19.3948494
+  },
+  "Tarnowskie Góry|tarnogórski|śląskie": {
+    "lat": 50.4654128,
+    "lon": 18.8335884
+  },
+  "Psary|będziński|śląskie": {
+    "lat": 50.3789233,
+    "lon": 19.1110804
+  },
+  "Zbrosławice|tarnogórski|śląskie": {
+    "lat": 50.41557,
+    "lon": 18.7522
+  },
+  "Wrocław|Wrocław|dolnośląskie": {
+    "lat": 51.112118,
+    "lon": 17.0639117
+  },
+  "Lubliniec|lubliniecki|śląskie": {
+    "lat": 50.6432152,
+    "lon": 18.6860586
+  },
+  "Kochanowice|lubliniecki|śląskie": {
+    "lat": 50.7091402,
+    "lon": 18.751991
+  },
+  "Zawadzkie|strzelecki|opolskie": {
+    "lat": 50.6065834,
+    "lon": 18.4801284
+  },
+  "Gliwice|Gliwice|śląskie": {
+    "lat": 50.301159,
+    "lon": 18.6770397
+  },
+  "Będzin|będziński|śląskie": {
+    "lat": 50.3230785,
+    "lon": 19.1322201
+  },
+  "Siewierz|będziński|śląskie": {
+    "lat": 50.4710097,
+    "lon": 19.2318901
+  },
+  "Nowy Targ|nowotarski|małopolskie": {
+    "lat": 49.4818229,
+    "lon": 20.030541
+  },
+  "Poraj|myszkowski|śląskie": {
+    "lat": 50.6795593,
+    "lon": 19.2134603
+  },
+  "Bobrowniki|będziński|śląskie": {
+    "lat": 50.3804752,
+    "lon": 18.9911874
+  },
+  "Knurów|gliwicki|śląskie": {
+    "lat": 50.2071818,
+    "lon": 18.6637073
+  },
+  "Kłomnice|częstochowski|śląskie": {
+    "lat": 50.9208773,
+    "lon": 19.3541823
+  },
+  "Radzionków|tarnogórski|śląskie": {
+    "lat": 50.4015072,
+    "lon": 18.903302
+  },
+  "Ożarowice|tarnogórski|śląskie": {
+    "lat": 50.4638913,
+    "lon": 19.042814
+  },
+  "Kłobuck|kłobucki|śląskie": {
+    "lat": 50.9025547,
+    "lon": 18.93716
+  },
+  "Popów|kłobucki|śląskie": {
+    "lat": 51.0391031,
+    "lon": 18.9328407
+  },
+  "Gierałtowice|gliwicki|śląskie": {
+    "lat": 50.2241331,
+    "lon": 18.7270541
+  },
+  "Toszek|gliwicki|śląskie": {
+    "lat": 50.4551063,
+    "lon": 18.5180604
+  },
+  "Tworóg|tarnogórski|śląskie": {
+    "lat": 50.5319435,
+    "lon": 18.7187362
+  },
+  "Tarczyn|piaseczyński|mazowieckie": {
+    "lat": 51.9802935,
+    "lon": 20.8339613
+  },
+  "Bielsk Podlaski|bielski|podlaskie": {
+    "lat": 52.7687555,
+    "lon": 23.1925618
+  },
+  "Czerwionka-Leszczyny|rybnicki|śląskie": {
+    "lat": 50.1449958,
+    "lon": 18.6531994
+  },
+  "Kalety|tarnogórski|śląskie": {
+    "lat": 50.5686645,
+    "lon": 18.936145
+  },
+  "Sośnicowice|gliwicki|śląskie": {
+    "lat": 50.2722844,
+    "lon": 18.5298588
+  },
+  "Świerklaniec|tarnogórski|śląskie": {
+    "lat": 50.4393321,
+    "lon": 18.9388857
+  },
+  "Żytno|radomszczański|łódzkie": {
+    "lat": 50.92729,
+    "lon": 19.62733
+  },
+  "Strzelce Wielkie|pajęczański|łódzkie": {
+    "lat": 51.13968,
+    "lon": 19.14338
+  },
+  "Trzebinia|chrzanowski|małopolskie": {
+    "lat": 50.1597686,
+    "lon": 19.4709097
+  },
+  "Dywity|olsztyński|warmińsko-mazurskie": {
+    "lat": 53.83404,
+    "lon": 20.47337
+  },
+  "Krzepice|kłobucki|śląskie": {
+    "lat": 50.9706951,
+    "lon": 18.7255158
+  },
+  "Pilchowice|gliwicki|śląskie": {
+    "lat": 50.2147849,
+    "lon": 18.5626191
+  },
+  "Krupski Młyn|tarnogórski|śląskie": {
+    "lat": 50.5737746,
+    "lon": 18.6234495
+  },
+  "Wielowieś|gliwicki|śląskie": {
+    "lat": 50.5088655,
+    "lon": 18.6124789
+  },
+  "Sulmierzyce|pajęczański|łódzkie": {
+    "lat": 51.1867247,
+    "lon": 19.2012956
+  },
+  "Przemyśl|Przemyśl|podkarpackie": {
+    "lat": 49.7835552,
+    "lon": 22.7885113
+  },
+  "Koszęcin|lubliniecki|śląskie": {
+    "lat": 50.635918,
+    "lon": 18.8413347
+  },
+  "Panki|kłobucki|śląskie": {
+    "lat": 50.88296,
+    "lon": 18.7455
+  },
+  "Przedbórz|radomszczański|łódzkie": {
+    "lat": 51.0868077,
+    "lon": 19.8744414
+  },
+  "Bieruń|bieruńsko-lędziński|śląskie": {
+    "lat": 50.0931922,
+    "lon": 19.0918262
+  },
+  "Żarki|myszkowski|śląskie": {
+    "lat": 50.6259563,
+    "lon": 19.3645599
+  },
+  "Sławków|będziński|śląskie": {
+    "lat": 50.2918851,
+    "lon": 19.3414305
+  },
+  "Radomsko|radomszczański|łódzkie": {
+    "lat": 51.0674769,
+    "lon": 19.4446109
+  },
+  "Ciasna|lubliniecki|śląskie": {
+    "lat": 50.7541779,
+    "lon": 18.6179914
+  },
+  "Wadowice|wadowicki|małopolskie": {
+    "lat": 49.8834484,
+    "lon": 19.4925345
+  },
+  "Przystajń|kłobucki|śląskie": {
+    "lat": 50.8843223,
+    "lon": 18.6920764
+  },
+  "Miedźno|kłobucki|śląskie": {
+    "lat": 50.9699726,
+    "lon": 18.9816737
+  },
+  "Racibórz|raciborski|śląskie": {
+    "lat": 50.0905252,
+    "lon": 18.2151495
+  },
+  "Woźniki|lubliniecki|śląskie": {
+    "lat": 50.5870812,
+    "lon": 19.0595251
+  },
+  "Dobryszyce|radomszczański|łódzkie": {
+    "lat": 51.1459513,
+    "lon": 19.408872
+  },
+  "Wyry|mikołowski|śląskie": {
+    "lat": 50.134874,
+    "lon": 18.8987036
+  },
+  "Szczekociny|zawierciański|śląskie": {
+    "lat": 50.6259216,
+    "lon": 19.8194681
+  },
+  "Ogrodzieniec|zawierciański|śląskie": {
+    "lat": 50.4521463,
+    "lon": 19.5213629
+  },
+  "Żarnowiec|zawierciański|śląskie": {
+    "lat": 50.4832713,
+    "lon": 19.86242
+  },
+  "Głogówek|prudnicki|opolskie": {
+    "lat": 50.3534373,
+    "lon": 17.8619329
+  },
+  "Myszków|myszkowski|śląskie": {
+    "lat": 50.5736481,
+    "lon": 19.3219413
+  },
+  "Orzesze|mikołowski|śląskie": {
+    "lat": 50.1084451,
+    "lon": 18.792235
+  },
+  "Ornontowice|mikołowski|śląskie": {
+    "lat": 50.1855079,
+    "lon": 18.7598719
+  },
+  "Koniecpol|częstochowski|śląskie": {
+    "lat": 50.7725294,
+    "lon": 19.6769723
+  },
+  "Konopiska|częstochowski|śląskie": {
+    "lat": 50.7269255,
+    "lon": 19.0102837
+  },
+  "Mstów|częstochowski|śląskie": {
+    "lat": 50.8293619,
+    "lon": 19.2856723
+  },
+  "Dąbrowa Zielona|częstochowski|śląskie": {
+    "lat": 50.8443,
+    "lon": 19.55506
+  },
+  "Janów|częstochowski|śląskie": {
+    "lat": 50.72164,
+    "lon": 19.4364
+  },
+  "Boguchwała|rzeszowski|podkarpackie": {
+    "lat": 49.9806882,
+    "lon": 21.9391822
+  },
+  "Gidle|radomszczański|łódzkie": {
+    "lat": 50.9640585,
+    "lon": 19.4684614
+  },
+  "Kruszyna|częstochowski|śląskie": {
+    "lat": 50.9687113,
+    "lon": 19.2763853
+  },
+  "Ładzice|radomszczański|łódzkie": {
+    "lat": 51.0817396,
+    "lon": 19.3568614
+  },
+  "Blachownia|częstochowski|śląskie": {
+    "lat": 50.7820239,
+    "lon": 18.9684255
+  },
+  "Irządze|zawierciański|śląskie": {
+    "lat": 50.6263355,
+    "lon": 19.6877361
+  },
+  "Włocławek|Włocławek|kujawsko-pomorskie": {
+    "lat": 52.6530309,
+    "lon": 19.058895
+  },
+  "Toruń|Toruń|kujawsko-pomorskie": {
+    "lat": 53.031304,
+    "lon": 18.5463742
+  },
+  "Mykanów|częstochowski|śląskie": {
+    "lat": 50.92332,
+    "lon": 19.19934
+  },
+  "Pilica|zawierciański|śląskie": {
+    "lat": 50.4681134,
+    "lon": 19.6573591
+  },
+  "Kodrąb|radomszczański|łódzkie": {
+    "lat": 51.0981,
+    "lon": 19.63021
+  },
+  "Bełchatów|bełchatowski|łódzkie": {
+    "lat": 51.3667319,
+    "lon": 19.3694645
+  },
+  "Gomunice|radomszczański|łódzkie": {
+    "lat": 51.16964,
+    "lon": 19.4855
+  },
+  "Herby|lubliniecki|śląskie": {
+    "lat": 50.7512437,
+    "lon": 18.883244
+  },
+  "Kroczyce|zawierciański|śląskie": {
+    "lat": 50.561473,
+    "lon": 19.5700518
+  },
+  "Kamieńsk|radomszczański|łódzkie": {
+    "lat": 51.204172,
+    "lon": 19.4970714
+  },
+  "Olsztyn|częstochowski|śląskie": {
+    "lat": 50.7494569,
+    "lon": 19.2686901
+  },
+  "Wielgomłyny|radomszczański|łódzkie": {
+    "lat": 51.0129394,
+    "lon": 19.7638042
+  },
+  "Kamienica Polska|częstochowski|śląskie": {
+    "lat": 50.6839554,
+    "lon": 19.1542304
+  },
+  "Kobiele Wielkie|radomszczański|łódzkie": {
+    "lat": 51.0304056,
+    "lon": 19.6243691
+  },
+  "Olkusz|olkuski|małopolskie": {
+    "lat": 50.2788158,
+    "lon": 19.5596307
+  },
+  "Jelenia Góra|Jelenia Góra|dolnośląskie": {
+    "lat": 50.9025882,
+    "lon": 15.7559869
+  },
+  "Jordanów|suski|małopolskie": {
+    "lat": 49.6492876,
+    "lon": 19.8299532
+  },
+  "Bukowno|olkuski|małopolskie": {
+    "lat": 50.2669741,
+    "lon": 19.4613822
+  },
+  "Rędziny|częstochowski|śląskie": {
+    "lat": 50.86439,
+    "lon": 19.22357
+  },
+  "Włodowice|zawierciański|śląskie": {
+    "lat": 50.5520931,
+    "lon": 19.4504273
+  },
+  "Żukowo|kartuski|pomorskie": {
+    "lat": 54.3458469,
+    "lon": 18.3647494
+  },
+  "Masłowice|radomszczański|łódzkie": {
+    "lat": 51.1056435,
+    "lon": 19.7895148
+  },
+  "Tarnobrzeg|Tarnobrzeg|podkarpackie": {
+    "lat": 50.5678165,
+    "lon": 21.6961934
+  },
+  "Chełmek|oświęcimski|małopolskie": {
+    "lat": 50.1003348,
+    "lon": 19.2542585
+  },
+  "Łuków|łukowski|lubelskie": {
+    "lat": 51.93008,
+    "lon": 22.3790669
+  },
+  "Tychy|Tychy|śląskie": {
+    "lat": 50.1357681,
+    "lon": 18.9641781
+  },
+  "Libiąż|chrzanowski|małopolskie": {
+    "lat": 50.1030516,
+    "lon": 19.3147486
+  },
+  "Zabierzów|krakowski|małopolskie": {
+    "lat": 50.1146386,
+    "lon": 19.7993814
+  },
+  "Mielno|koszaliński|zachodniopomorskie": {
+    "lat": 54.2560766,
+    "lon": 16.0520587
+  },
+  "Andrychów|wadowicki|małopolskie": {
+    "lat": 49.8555791,
+    "lon": 19.3436756
+  },
+  "Mogilany|krakowski|małopolskie": {
+    "lat": 49.9413293,
+    "lon": 19.8877676
+  },
+  "Skawina|krakowski|małopolskie": {
+    "lat": 49.9747508,
+    "lon": 19.8265702
+  },
+  "Kraków|Kraków|małopolskie": {
+    "lat": 50.0643585,
+    "lon": 19.9382126
+  },
+  "Klucze|olkuski|małopolskie": {
+    "lat": 50.3351358,
+    "lon": 19.5608326
+  },
+  "Wolbrom|olkuski|małopolskie": {
+    "lat": 50.3848386,
+    "lon": 19.7598844
+  },
+  "Miechów|miechowski|małopolskie": {
+    "lat": 50.3566016,
+    "lon": 20.0276912
+  },
+  "Kalwaria Zebrzydowska|wadowicki|małopolskie": {
+    "lat": 49.8669482,
+    "lon": 19.6763089
+  },
+  "Chrzanów|chrzanowski|małopolskie": {
+    "lat": 50.1411926,
+    "lon": 19.4028502
+  },
+  "Kocmyrzów-Luborzyca|krakowski|małopolskie": {
+    "lat": 50.1564008,
+    "lon": 20.102802
+  },
+  "Spytkowice|wadowicki|małopolskie": {
+    "lat": 49.994979,
+    "lon": 19.5087999
+  },
+  "Liszki|krakowski|małopolskie": {
+    "lat": 50.0384673,
+    "lon": 19.7661585
+  },
+  "Wielka Wieś|krakowski|małopolskie": {
+    "lat": 50.15676,
+    "lon": 19.8429766
+  },
+  "Zielonki|krakowski|małopolskie": {
+    "lat": 50.1174019,
+    "lon": 19.9206558
+  },
+  "Alwernia|chrzanowski|małopolskie": {
+    "lat": 50.0690434,
+    "lon": 19.5396737
+  },
+  "Skalbmierz|kazimierski|świętokrzyskie": {
+    "lat": 50.3170888,
+    "lon": 20.3996843
+  },
+  "Krzeszowice|krakowski|małopolskie": {
+    "lat": 50.1350246,
+    "lon": 19.6320164
+  },
+  "Jerzmanowice-Przeginia|krakowski|małopolskie": {
+    "lat": 50.2357801,
+    "lon": 19.7009053
+  },
+  "Oświęcim|oświęcimski|małopolskie": {
+    "lat": 50.0382443,
+    "lon": 19.2214053
+  },
+  "Babice|chrzanowski|małopolskie": {
+    "lat": 50.0708337,
+    "lon": 19.4486172
+  },
+  "Skała|krakowski|małopolskie": {
+    "lat": 50.2303769,
+    "lon": 19.853537
+  },
+  "Stryszów|wadowicki|małopolskie": {
+    "lat": 49.825128,
+    "lon": 19.6261498
+  },
+  "Proszowice|proszowicki|małopolskie": {
+    "lat": 50.1926479,
+    "lon": 20.2917555
+  },
+  "Słomniki|krakowski|małopolskie": {
+    "lat": 50.2403739,
+    "lon": 20.0811369
+  },
+  "Michałowice|krakowski|małopolskie": {
+    "lat": 50.1603193,
+    "lon": 19.9801697
+  },
+  "Bolesław|olkuski|małopolskie": {
+    "lat": 50.2970061,
+    "lon": 19.4811218
+  },
+  "Racławice|miechowski|małopolskie": {
+    "lat": 50.3247214,
+    "lon": 20.2356859
+  },
+  "Czernichów|krakowski|małopolskie": {
+    "lat": 49.9871154,
+    "lon": 19.6761974
+  },
+  "Koszyce|proszowicki|małopolskie": {
+    "lat": 50.1669806,
+    "lon": 20.5756459
+  },
+  "Lanckorona|wadowicki|małopolskie": {
+    "lat": 49.8454833,
+    "lon": 19.715059
+  },
+  "Świątniki Górne|krakowski|małopolskie": {
+    "lat": 49.9346365,
+    "lon": 19.9524965
+  },
+  "Igołomia-Wawrzeńczyce|krakowski|małopolskie": {
+    "lat": 50.1068744,
+    "lon": 20.2686881
+  },
+  "Iwanowice|krakowski|małopolskie": {
+    "lat": 50.2222622,
+    "lon": 19.9786383
+  },
+  "Wieprz|wadowicki|małopolskie": {
+    "lat": 49.8990234,
+    "lon": 19.3658222
+  },
+  "Książ Wielki|miechowski|małopolskie": {
+    "lat": 50.4429446,
+    "lon": 20.1399453
+  },
+  "nan|nan|nan": {
+    "lat": 52.4127668,
+    "lon": 16.8695848
+  },
+  "Kazimierza Wielka|kazimierski|świętokrzyskie": {
+    "lat": 50.267489,
+    "lon": 20.4853308
+  },
+  "Grybów|nowosądecki|małopolskie": {
+    "lat": 49.6250919,
+    "lon": 20.9446455
+  },
+  "Charsznica|miechowski|małopolskie": {
+    "lat": 50.4130511,
+    "lon": 19.9355395
+  },
+  "Koniusza|proszowicki|małopolskie": {
+    "lat": 50.1878952,
+    "lon": 20.2165568
+  },
+  "Mucharz|wadowicki|małopolskie": {
+    "lat": 49.812017,
+    "lon": 19.5584908
+  },
+  "Jędrzejów|jędrzejowski|świętokrzyskie": {
+    "lat": 50.6394435,
+    "lon": 20.3046116
+  },
+  "Słupsk|Słupsk|pomorskie": {
+    "lat": 54.4635771,
+    "lon": 17.020948
+  },
+  "Olesno|oleski|opolskie": {
+    "lat": 50.8766575,
+    "lon": 18.4219452
+  },
+  "Morąg|ostródzki|warmińsko-mazurskie": {
+    "lat": 53.9119982,
+    "lon": 19.9279895
+  },
+  "Trzyciąż|olkuski|małopolskie": {
+    "lat": 50.3094145,
+    "lon": 19.7675599
+  },
+  "Jaworze|bielski|śląskie": {
+    "lat": 49.79248,
+    "lon": 18.94034
+  },
+  "Bartoszyce|bartoszycki|warmińsko-mazurskie": {
+    "lat": 54.2534341,
+    "lon": 20.8083932
+  },
+  "Dobra|limanowski|małopolskie": {
+    "lat": 49.7181214,
+    "lon": 20.2507691
+  },
+  "Bejsce|kazimierski|świętokrzyskie": {
+    "lat": 50.2414722,
+    "lon": 20.6003484
+  },
+  "Zakopane|tatrzański|małopolskie": {
+    "lat": 49.2757934,
+    "lon": 19.9692811
+  },
+  "Gołcza|miechowski|małopolskie": {
+    "lat": 50.3369451,
+    "lon": 19.9266289
+  },
+  "Nowe Brzesko|proszowicki|małopolskie": {
+    "lat": 50.1322823,
+    "lon": 20.3767203
+  },
+  "Brzeźnica|wadowicki|małopolskie": {
+    "lat": 49.966061,
+    "lon": 19.6298862
+  },
+  "Sułoszowa|krakowski|małopolskie": {
+    "lat": 50.2672276,
+    "lon": 19.7330471
+  }
+}
