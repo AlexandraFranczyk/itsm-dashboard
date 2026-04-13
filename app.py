@@ -6,14 +6,12 @@ from folium.plugins import MarkerCluster, HeatMap
 import numpy as np
 import os
 
-
 # ============================
-# ŚCIEŻKI DO PLIKÓW
+# ŚCIEŻKI DO PLIKÓW — WERSJA Z FOLDEREM data/
 # ============================
-DATA_DIR = os.path.join(os.path.dirname(__file__), "../data")
-TICKETS_GEO_FILE = os.path.join(DATA_DIR, "tickets_with_geo.xlsx")
-AGG_FILE = os.path.join(DATA_DIR, "tickets_by_gmina.xlsx")
-
+TICKETS_GEO_FILE = "data/tickets_with_geo.xlsx"
+AGG_FILE = "data/tickets_by_gmina.xlsx"
+TICKETS_FILE = "data/tickets.xlsx"   # jeśli używasz
 
 # ============================
 # ŁADOWANIE DANYCH
@@ -23,31 +21,26 @@ def load_data():
     df = pd.read_excel(TICKETS_GEO_FILE)
     df_agg = pd.read_excel(AGG_FILE)
 
-    # konwersja dat
     df["Created At"] = pd.to_datetime(df["Created At"])
     df["Resolved At"] = pd.to_datetime(df["Resolved At"])
     df["Deadline"] = pd.to_datetime(df["Deadline"])
 
-    # metryki czasowe bazowe
     df["Resolution_Time"] = df["Resolved At"] - df["Created At"]
     df["Resolution_Hours"] = df["Resolution_Time"].dt.total_seconds() / 3600
     df["SLA_Met"] = df["Resolved At"] <= df["Deadline"]
 
-    # --- KONWERSJA NOWYCH METRYK CZASOWYCH (HH:MM:SS → godziny) ---
     time_cols = ["Total RT", "Elapsed RT", "Total Work Time"]
     for col in time_cols:
         if col in df.columns:
             df[col] = pd.to_timedelta(df[col], errors="coerce")
-            df[col] = df[col].dt.total_seconds() / 3600  # zamiana na godziny (float)
+            df[col] = df[col].dt.total_seconds() / 3600
 
-    # Service Performance Overdued = 0/1
     if "Service Performance Overdued" in df.columns:
         df["Service Performance Overdued"] = pd.to_numeric(
             df["Service Performance Overdued"], errors="coerce"
         )
 
     return df, df_agg
-
 
 # ============================
 # KPI — SLA / MTTR / MTBF
@@ -77,7 +70,6 @@ def compute_kpi(df):
         "AVG_DEADLINE_PCT": avg_deadline_pct,
         "MTBF": mtbf
     }
-
 
 # ============================
 # MAPA PUNKTOWA
@@ -129,7 +121,6 @@ def build_point_map(df):
 
     return m
 
-
 # ============================
 # HEATMAPA
 # ============================
@@ -146,7 +137,6 @@ def build_heatmap(df):
     HeatMap(heat_data, radius=15, blur=20, max_zoom=12).add_to(m)
     return m
 
-
 # ============================
 # GŁÓWNY DASHBOARD
 # ============================
@@ -157,9 +147,6 @@ def main():
 
     df, df_agg = load_data()
 
-    # --------------------------
-    # FILTRY PODSTAWOWE
-    # --------------------------
     st.sidebar.header("Filtry podstawowe")
 
     wojew_filter = st.sidebar.selectbox(
@@ -196,13 +183,7 @@ def main():
         default=[]
     )
 
-    # --------------------------
-    # FILTRY ZAAWANSOWANE
-    # --------------------------
     st.sidebar.header("Filtry zaawansowane — SLA / czas")
-
-    min_date = df["Created At"].min().date()
-    max_date = df["Created At"].max().date()
 
     sla_breached_only = st.sidebar.checkbox("Tylko tickety z przekroczonym SLA", value=False)
 
@@ -223,9 +204,6 @@ def main():
         step=5
     )
 
-    # --------------------------
-    # ZASTOSOWANIE FILTRÓW
-    # --------------------------
     df_filtered = df.copy()
 
     if wojew_filter != "(wszystkie)":
@@ -245,7 +223,6 @@ def main():
     if root_cause_filter:
         df_filtered = df_filtered[df_filtered["Root Cause"].isin(root_cause_filter)]
 
-
     df_filtered = df_filtered[
         df_filtered["Resolution_Hours"] <= resolution_hours_max_filter
     ]
@@ -257,9 +234,6 @@ def main():
     if sla_breached_only:
         df_filtered = df_filtered[df_filtered["SLA_Met"] == False]
 
-    # --------------------------
-    # KPI — SLA / MTTR / MTBF
-    # --------------------------
     st.markdown("### KPI — SLA / MTTR / MTBF")
 
     kpi = compute_kpi(df_filtered)
@@ -278,9 +252,6 @@ def main():
     with col_k4:
         st.metric("MTBF (h)", round(kpi["MTBF"], 2))
 
-    # --------------------------
-    # PERFORMANCE METRICS
-    # --------------------------
     st.markdown("### Performance Metrics — RT / SLA / Work Time")
 
     perf_cols = [
@@ -332,9 +303,6 @@ def main():
     else:
         st.info("Brak kompletnych danych dla metryk: Total RT / Elapsed RT / Service Performance Overdued / Total Work Time.")
 
-    # --------------------------
-    # MAPY
-    # --------------------------
     col_map1, col_map2 = st.columns(2)
     with col_map1:
         st.markdown("### Mapa punktowa (cluster + kolory)")
@@ -352,9 +320,6 @@ def main():
         else:
             st.info("Brak danych do wyświetlenia heatmapy.")
 
-    # --------------------------
-    # WYKRES TOP GMIN
-    # --------------------------
     st.markdown("### TOP gmin z największą liczbą ticketów")
 
     df_agg_filtered = df_agg.copy()
@@ -373,9 +338,6 @@ def main():
     else:
         st.info("Brak danych do wyświetlenia wykresu.")
 
-    # --------------------------
-    # ANALIZA TECHNIKÓW
-    # --------------------------
     st.markdown("### Analiza techników (Resolved By)")
 
     if not df_filtered.empty:
@@ -391,9 +353,6 @@ def main():
     else:
         st.info("Brak danych do analizy techników dla wybranych filtrów.")
 
-    # --------------------------
-    # ANALIZA ROOT CAUSE
-    # --------------------------
     st.markdown("### Analiza Root Cause")
 
     if not df_filtered.empty:
@@ -409,9 +368,6 @@ def main():
     else:
         st.info("Brak danych do analizy Root Cause dla wybranych filtrów.")
 
-    # --------------------------
-    # TABELA TICKETÓW — WIDOK SZCZEGÓŁOWY
-    # --------------------------
     st.markdown("### Widok ticketów — tabela z wyszukiwaniem")
 
     search_text = st.text_input(
@@ -456,13 +412,9 @@ def main():
 
     st.dataframe(df_tickets_view[existing_cols])
 
-    # --------------------------
-    # TABELA AGREGACJI
-    # --------------------------
     st.markdown("### Tabela agregacji (gminy)")
 
     st.dataframe(df_agg_filtered)
-
 
 if __name__ == "__main__":
     main()
